@@ -1,0 +1,98 @@
+body {
+    background-color: var(--primary-soft);
+    background-image: url(../image/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    height: 100vh;
+
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.logo {
+    padding: 75px;
+}
+
+.conteudo {
+    padding: 15px 75px;
+    display: flex;
+}
+
+.about {
+    max-width: 600px;
+}
+
+.title {
+    padding: 45px 45px 20px;
+    margin-left: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+    max-height: 300px;
+}
+
+.description {
+    padding: 0 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    width: 650px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    padding: 11px 50px;
+}
+
+.btn {
+    padding: 15px 60px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 100px;
+    border: none;
+    color: var(--primary-soft);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background-color: var(--Soft-Magenta);
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+    padding: 0px 80px 0px; 
+    gap: 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.redes-sociais  a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    transition: 0.3 ease-in-out;
+}
+
+.redes-sociais a:hover{
+   transition: 0.3 ease-in-out;
+    color: var(--Soft-Magenta) ;
+    border: 1px solid var(--Soft-Magenta)
+}
